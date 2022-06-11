@@ -6,7 +6,7 @@ html{
 header{
   display: flex;
   width: 100%;
-  flex-direction: row;
+  flex-direction: row; 
   justify-content: flex-start;
   background-color: #333;
   margin-bottom: 15px;
@@ -33,15 +33,17 @@ span {
   padding-bottom: 15px;
 }
 ul {
-  margin-left: 200px;
+  margin-left: 150px;
   margin-right:460px;
   padding-bottom:15px;
-  padding-left: 10px;
+  padding-left: 11px;
   display:flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
+  width:100%;
 }
+
  section {
    display:flex;
    margin-left:225px;
@@ -82,4 +84,8 @@ footer{
   height:75px;
   width: 100%;
   margin-top: auto;
+}
+
+li{
+  padding-left: 10px;
 }
